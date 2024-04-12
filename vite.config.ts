@@ -10,3 +10,20 @@ export default defineConfig({
     },
   },
 });
+
+// export default defineConfig({
+//   plugins: [react()],
+//   proxy: {
+//     '/api': {
+//       target: 'https://cloud.appwrite.io',
+//       changeOrigin: true,
+//       rewrite: (path) => path.replace(/^\/api/, '')
+
+//     }
+//   },
+//   resolve: {
+//     alias: {
+//       "@": path.resolve(__dirname, "./src"),
+//     },
+//   },
+// });

@@ -4,7 +4,11 @@ import SignInForm from "./_auth/forms/SignInForm";
 import SignUpForm from "./_auth/forms/SignUpForm";
 import { Home } from "./_root/pages";
 import AuthLayout from "./_auth/AuthLayout";
+import { Toaster } from "@/components/ui/toaster"
 import RootLayout from "./_root/RootLayout";
+
+
+
 
 const App = () => {
   return (
@@ -21,6 +25,7 @@ const App = () => {
 
         {/* private routes */}
       </Routes>
+      <Toaster />
     </main>
   );
 };
